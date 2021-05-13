@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">nutriHealth</string>
+    <string name="title_activity_main">nutriHealth</string>
+    <string name="package_name">com.aline.nutriHealth</string>
+    <string name="custom_url_scheme">com.aline.nutriHealth</string>
+</resources>
