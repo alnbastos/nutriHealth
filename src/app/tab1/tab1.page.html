@@ -1,11 +1,12 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
+<!--CSS da página-->
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
@@ -13,5 +14,33 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Nutri Health</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <!--verificar como pegar a hora atual com ionic ou capacitor-->
+      <ion-card-subtitle>
+        Hoje é
+        <ion-datetime value="2019-10-01T15:43:40.394Z" display-timezone="utc"></ion-datetime>
+      </ion-card-subtitle>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/icon/logo-nH.PNG" width="100"/>
+      <p>Bem-vindo</p>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Histórico</ion-card-title>
+      <ion-card-subtitle>Peso: </ion-card-subtitle>
+      <ion-card-subtitle>Altura: </ion-card-subtitle>
+      <ion-card-subtitle>IMC: </ion-card-subtitle>
+    </ion-card-header>
+  </ion-card>
 </ion-content>
