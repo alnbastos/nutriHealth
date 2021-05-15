@@ -1,3 +1,4 @@
+import { Tab2Page } from './../tab2/tab2.page';
 import { Component } from '@angular/core';
 
 @Component({
